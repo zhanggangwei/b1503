@@ -1,0 +1,46 @@
+.clear{clear:both;}
+
+/* boby 样式 S*/
+.goods_select{margin:0 auto;height:60px;border-bottom:1px solid #cccccc;border-left:1px solid #cccccc;}
+.select{width:1220px;margin:0 auto;border-left:1px solid #ebeff2;}
+.select ul li{height:60px;border-right:1px solid #ebeff2;}
+.select ul li a{color:#414141;height:59px;line-height:30px;}
+.select ul li a:hover{background:none;}
+.select ul li a .glyphicon-chevron-down::before{font-size:10px;color:#50c8ac;padding-left:10px;}
+.price_sorted{width:1220px;margin:0 auto;}
+.row_bg{margin:0 auto;background:#f4f4f4;border-bottom:1px solid #ccc;margin-bottom:60px;}
+.row{width:1220px;margin:0 auto;}
+.price_sorted p{float:right;margin:30px 28px 15px 0;}
+.price_sorted span{margin:0 10px;}
+.price_sorted p span img{margin:0 0 2px 5px;}
+.price_sorted p .sorted{color:#e93a41;}
+.price_sorted p .price{color:#666;}
+.row .col-md-4{background:#fff;padding:0;margin-right:35px;width:380px;margin-bottom:30px;}
+.row .col-md-none{margin:0;}
+.row .col-md-4 p{margin:10px 0 0 10px;width:50px;height:20px;text-align:center;}
+.row .col-md-4 p span{margin-left:10px;}
+.row .col-md-4 p .good_price{float:right;margin-right:25px;}
+.row .col-md-4 .hot{background:#e71d26;color:#fff;}
+.row .col-md-4 img{margin:0 70px 65px;}
+.row .col-md-4 .good_content{width:360px;text-align:left;margin-left:20px;}
+.row .col-md-4 .evaluate{width:360px;text-align:left;margin-left:20px;margin-bottom:25px;}
+.row .col-md-4 .evaluate span{color:#666;font-size:11px;}
+.row .col-md-4 .evaluate img{margin:0;}
+.row .col-md-4 .evaluate .good_price{color:#333;font-size:14px;}
+.page{width:1220px;margin:0 auto;padding-bottom:40px;}
+.page nav{margin:0 auto;text-align:center;}
+.page nav ul li a{border:1px solid #ccc;margin-left:3px;}
+/* boby 样式 E*/
+
+    .navbar .nav > li .dropdown-menu {
+    margin: 0;
+}
+.navbar .nav > a:hover .dropdown-menu {
+    display: block;
+}
+
+.goods_select .select ul li ul{position:absolute;padding: 0;margin-left:5px;z-index:9999;background:#fff;}
+.goods_select .select ul li ul li{background:none;height:30px;}
+.goods_select .select ul li ul li a{color:#333;font-size:12px;width:30px;padding:8px 25px;}
+.goods_select .select ul li ul li a:hover{background:#ccc;text-decoration:none;}
+.goods_select .select ul li ul li .two{padding:8px 50px 8px 25px;}

@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>{$page_title}</title>
+    <link rel="stylesheet" type="text/css" href="{$static_path}/bootstrap/css/bootstrap.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="{$static_path}/css/header.css"/>
+    <link rel="stylesheet" type="text/css" href="{$static_path}/css/category_body.css"/>
+    <link rel="stylesheet" type="text/css" href="{$static_path}/css/footer.css"/>
+</head>
+<body>
+<!--Start-->
+<div id="wrap">
+    <!--header S-->
+    <header class="future_header">
+        <div class="nav_top">
+            <div class="logo"><img src="{$static_path}/images/future_logo.gif"/></div>
+            <form class="dark-form" action="#">
+                <div class="input-group">
+                    <input class="form-control" type="text"  name="s">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default maincolor1 maincolor1hover" type="submit">
+                             <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+            <ul class="nav navbar-nav hidden-xs">
+                <li id="nav-menu-item-4431" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        username
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                    </a>
+                    <ul style="display:none;" class="f_nav_ul">
+                        <li><a href="#">用户中心</a></li>
+                        <li><a href="#">我的评价</a></li>
+                        <li><a href="#">我的留言</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">资金管理</a></li>
+                        <li class="exit"><a href="#">退出</a></li>
+                    </ul>
+                </li>
+                <li id="nav-menu-item-4428" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        我的订单
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+
+                </li>
+                <li id="nav-menu-item-5218" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        <img src="{$static_path}/images/shopping_car.png"/>  购物车（<span>4</span>）
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+
+                </li>
+                <li id="nav-menu-item-4857" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent dropdown">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        帮助中心
+                        <i class="fa fa-angle-down"></i>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav_menu">
+            <div class="menu">
+                <div class="goods_all">
+                    <img src="{$static_path}/images/goods_all.png"/>
+                    <a class="all_classification" href="#"> 所有商品分类</a>
+                    <ul style="display:none;" class="f_nav_ul">
+                        <li><a href="#"><img src="{$static_path}/images/tel.png"/>手机数码 &nbsp;&nbsp;</a></li>
+                        <li class="down_li">
+                            <a href="#"><img src="{$static_path}/images/cp.png"/>电脑办公 &gt; </a>
+                            <ul style="display:none;" class="f_nav_li">
+                                <li><a href="#">&gt; 笔记本&nbsp;&nbsp;</a></li>
+                                <li><a href="#">&gt; 台式机&nbsp;&nbsp;</a></li>
+                                <li><a href="#">&gt; 平板电脑</a></li>
+                                <li><a href="#">&gt; 超极本&nbsp;&nbsp;</a></li>
+                                <li><a href="#">&gt; 服务器&nbsp;&nbsp;</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><img src="{$static_path}/images/home_tv.png"/>智能家居 &nbsp;&nbsp;</a></li>
+                    </ul>
+                </div>
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">首页</a></li>
+                    <li role="presentation"><a href="#">新品上市</a></li>
+                    <li role="presentation"><a href="#">手机数码</a></li>
+                    <li role="presentation"><a href="#">电脑办公</a></li>
+                    <li role="presentation"><a href="#">智能家居</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--header E-->
+    <!--body S-->
+    <div class="body">
+        <div class="goods_select">
+            <div class="select">
+                <ul class="nav navbar-nav hidden-xs">
+                    <li class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown">
+                        <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                            所有品牌
+                            <i class="glyphicon glyphicon-chevron-down"></i>
+                        </a>
+                        <ul style="display:none;" class="f_nav_ul">
+                            <li><a href="#">所有品牌</a></li>
+                            <li><a href="#">手机数码</a></li>
+                            <li><a href="#">手机数码</a></li>
+                            <li><a href="#">手机数码</a></li>
+                            <li><a href="#">手机数码</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown">
+                        <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                            全部价格
+                            <i class="glyphicon glyphicon-chevron-down"></i>
+                        </a>
+                        <ul style="display:none;" class="f_nav_ul">
+                        <li><a href="#">全部价格</a></li>
+                        <li><a href="#">全部价格</a></li>
+                        <li><a href="#">全部价格</a></li>
+                        <li><a href="#">全部价格</a></li>
+                        <li><a href="#">全部价格</a></li>
+                    </ul>
+                    </li>
+                    <li class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent ">
+                        <a class="dropdown menu-link dropdown-toggle disabled main-menu-link"  href="#" title="Music Videos">
+                            全部颜色
+                            <i class="glyphicon glyphicon-chevron-down"></i>
+
+                        </a>
+                        <ul style="display:none;" class="f_nav_ul">
+                        <li><a href="#">全部颜色</a></li>
+                        <li><a class="two" href="#">白色</a></li>
+                        <li><a class="two" href="#">黑色</a></li>
+                        <li><a class="two" href="#">金色</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row_bg">
+            <div class="price_sorted">
+                <p>排序：<span class="sorted">销量</span><span class="price">价格<img src="{$static_path}/images/d_up.png"/></span></p>
+            </div>
+        <div class="clear"></div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="hot">热卖</p>
+                    <img src="{$static_path}/images/iermu_good_01.gif"/>
+                    <p class="good_content">小度i耳目 （iermu）720P高清 WiFi 云</p>
+                    <p class="evaluate"><img src="{$static_path}/images/star_05.png"/><span>(64)</span><span class="good_price">¥399</span></p>
+                </div>
+                <div class="col-md-4">
+                    <p>&nbsp;</p>   
+                    <img src="{$static_path}/images/iermu_good_02.gif"/>
+                    <p class="good_content">小度i耳目 （iermu）720P高清 WiFi 云</p>
+                    <p class="evaluate"><img src="{$static_path}/images/star_05.png"/><span>(64)</span><span class="good_price">¥399</span></p>
+                </div>
+                <div class="col-md-4 col-md-none" >
+                    <p>&nbsp;</p>
+                    <img src="{$static_path}/images/iermu_good_03.gif"/>
+                    <p class="good_content">小度i耳目 （iermu）720P高清 WiFi 云</p>
+                    <p class="evaluate"><img src="{$static_path}/images/star_05.png"/><span>(64)</span><span class="good_price">¥399</span></p>
+                </div>
+                <div class="col-md-4">
+                    <p>&nbsp;</p>
+                    <img src="{$static_path}/images/iermu_good_04.gif"/>
+                    <p class="good_content">小度i耳目 （iermu）720P高清 WiFi 云</p>
+                    <p class="evaluate"><img src="{$static_path}/images/star_05.png"/><span>(64)</span><span class="good_price">¥399</span></p>
+                </div>
+                <div class="col-md-4">
+                    <p>&nbsp;</p>   
+                    <img src="{$static_path}/images/iermu_good_05.gif"/>
+                    <p class="good_content">小度i耳目 （iermu）720P高清 WiFi 云</p>
+                    <p class="evaluate"><img src="{$static_path}/images/star_05.png"/><span>(64)</span><span class="good_price">¥399</span></p>
+                </div>
+                <div class="col-md-4 col-md-none" >
+                    <p>&nbsp;</p>
+                    <img src="{$static_path}/images/iermu_good_06.jpg"/>
+                    <p class="good_content">小度i耳目 （iermu）720P高清 WiFi 云</p>
+                    <p class="evaluate"><img src="{$static_path}/images/star_05.png"/><span>(64)</span><span class="good_price">¥399</span></p>
+                </div>
+                <div class="col-md-4">
+                    <p>&nbsp;</p>
+                    <img src="{$static_path}/images/iermu_good_01.gif"/>
+                    <p class="good_content">小度i耳目 （iermu）720P高清 WiFi 云</p>
+                    <p class="evaluate"><img src="{$static_path}/images/star_05.png"/><span>(64)</span><span class="good_price">¥399</span></p>
+                </div>
+                <div class="col-md-4">
+                    <p>&nbsp;</p>   
+                    <img src="{$static_path}/images/iermu_good_02.gif"/>
+                    <p class="good_content">小度i耳目 （iermu）720P高清 WiFi 云</p>
+                    <p class="evaluate"><img src="{$static_path}/images/star_05.png"/><span>(64)</span><span class="good_price">¥399</span></p>
+                </div>
+                <div class="col-md-4 col-md-none" >
+                    <p>&nbsp;</p>
+                    <img src="{$static_path}/images/iermu_good_03.gif"/>
+                    <p class="good_content">小度i耳目 （iermu）720P高清 WiFi 云</p>
+                    <p class="evaluate"><img src="{$static_path}/images/star_05.png"/><span>(64)</span><span class="good_price">¥399</span></p>
+                </div>
+            </div>
+            <div class="page">
+            <nav>
+              <ul class="pagination">
+                <li>
+                  <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">上一页</span>
+                  </a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                  <a href="#" aria-label="Next">
+                    <span aria-hidden="true">下一页</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+        </div>
+    </div>
+    <!--body E-->
+    <!--footer S-->
+    <footer>
+    <div class="container">
+        <ul class="footernav">
+            <li><img src="{$static_path}/images/index.footer.icon01.png" alt=""/><a href="">严格准入标准</a></li>
+            <li><img src="{$static_path}/images/index.footer.icon02.png" alt=""/><a href="">严格准入标准</a></li>
+            <li><img src="{$static_path}/images/index.footer.icon03.png" alt=""/><a href="">15天免费换货</a></li>
+            <li><img src="{$static_path}/images/index.footer.icon04.png" alt=""/><a href="">全场包邮</a></li>
+        </ul>
+        <div class="footer-left">
+            <h3>售后客服电话：020-23235858 <span>(周一至周五9:00-18:00)</span></h3>
+            <P>
+                <span>©2015 feturn.com</span>
+                <a href="">关于我们</a>
+                <a href="">服务条款</a>
+                <a href="">意见反馈</a>
+                <a href="">售后政策</a>
+                <a href="">合作咨询</a>
+            </P>
+        </div>
+        <div class="footer-right">
+            <p>关注我们：</p>
+            <img src="{$static_path}/images/index.footer.icon05.png"/>
+            <img src="{$static_path}/images/index.footer.icon06.png"/>
+            <img class="footer-icon" src="{$static_path}/images/index.footer.icon07.gif"/>
+        </div>
+    </div>
+</footer>
+
+    <!--footer E-->
+</div>
+<!--End-->
+</body>
+</html>
+<script src="{$static_path}/bootstrap/js/bootstrap.min.js"></script>
+   <script src="{$static_path}/js/jquery-1.11.3.js"></script>
+    <script src="{$static_path}/js/dropdown.js"></script>

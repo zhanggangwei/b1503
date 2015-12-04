@@ -126,6 +126,35 @@ function insert_cart_info()
 }
 
 /**
+ * 调用购物车信息1
+ *
+ * @access  public
+ * @return  string
+ */
+function insert_cart_info1()
+{
+    $sql = 'SELECT SUM(goods_number) AS number, SUM(goods_price * goods_number) AS amount' .
+           ' FROM ' . $GLOBALS['ecs']->table('cart') .
+           " WHERE session_id = '" . SESS_ID . "' AND rec_type = '" . CART_GENERAL_GOODS . "'";
+    $row = $GLOBALS['db']->GetRow($sql);
+
+    if ($row)
+    {
+        $number = intval($row['number']);
+        $amount = floatval($row['amount']);
+    }
+    else
+    {
+        $number = 0;
+        $amount = 0;
+    }
+
+    $str = sprintf($number);
+
+    return '  购物车（<span>'.$str.'</span>）';
+}
+
+/**
  * 调用指定的广告位的广告
  *
  * @access  public

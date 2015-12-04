@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>未来商城</title>
+    <link rel="stylesheet" type="text/css" href="{$static_path}/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="{$static_path}/css/header.css"/>
+</head>
+
+<body>
+<!--Start-->
+<div id="wrap">
+<!--header S-->
+    <header class="future_header">
+        <div class="nav_top">
+            <div class="logo"><img src="{$static_path}/images/future_logo.gif"/></div>
+            <form class="dark-form" action="#">
+                <div class="input-group">
+                    <input class="form-control" type="text"  name="s">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default maincolor1 maincolor1hover" type="submit">
+                             <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+            <ul class="nav navbar-nav hidden-xs">
+                <li id="nav-menu-item-4431" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        username
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                    </a>
+                    <ul style="display:none;" class="f_nav_ul">
+                        <li><a href="#">用户中心</a></li>
+                        <li><a href="#">我的评价</a></li>
+                        <li><a href="#">我的留言</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">资金管理</a></li>
+                        <li class="exit"><a href="#">退出</a></li>
+                    </ul>
+                </li>
+                <li id="nav-menu-item-4428" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        我的订单
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+
+                </li>
+                <li id="nav-menu-item-5218" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        <img src="{$static_path}/images/shopping_car.png"/>  购物车（<span>4</span>）
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+
+                </li>
+                <li id="nav-menu-item-4857" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent dropdown">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        帮助中心
+                        <i class="fa fa-angle-down"></i>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav_menu">
+            <div class="menu">
+                <div class="goods_all">
+                    <img src="{$static_path}/images/goods_all.png"/>
+                    <a class="all_classification" href="#"> 所有商品分类</a>
+                    <ul style="display:none;" class="f_nav_ul">
+                        <li><a href="#"><img src="{$static_path}/images/tel.png"/>手机数码 &nbsp;&nbsp;</a></li>
+                        <li class="down_li">
+                            <a href="#"><img src="{$static_path}/images/cp.png"/>电脑办公 &gt; </a>
+                            <ul style="display:none;" class="f_nav_li">
+                                <li><a href="#">&gt; 笔记本&nbsp;&nbsp;</a></li>
+                                <li><a href="#">&gt; 台式机&nbsp;&nbsp;</a></li>
+                                <li><a href="#">&gt; 平板电脑</a></li>
+                                <li><a href="#">&gt; 超极本&nbsp;&nbsp;</a></li>
+                                <li><a href="#">&gt; 服务器&nbsp;&nbsp;</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><img src="{$static_path}/images/home_tv.png"/>智能家居 &nbsp;&nbsp;</a></li>
+                    </ul>
+                </div>
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">首页</a></li>
+                    <li role="presentation"><a href="#">新品上市</a></li>
+                    <li role="presentation"><a href="#">手机数码</a></li>
+                    <li role="presentation"><a href="#">电脑办公</a></li>
+                    <li role="presentation"><a href="#">智能家居</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--header E-->
+</div>
+</body>
+</html>
+   <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/dropdown.js"></script>

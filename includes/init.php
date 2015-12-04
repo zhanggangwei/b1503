@@ -62,7 +62,7 @@ if (defined('DEBUG_MODE') == false)
 
 if (PHP_VERSION >= '5.1' && !empty($timezone))
 {
-    date_default_timezone_set($timezone);
+    @date_default_timezone_set($timezone);
 }
 
 $php_self = isset($_SERVER['PHP_SELF']) ? $_SERVER['PHP_SELF'] : $_SERVER['SCRIPT_NAME'];
@@ -196,7 +196,7 @@ if (!defined('INIT_NO_SMARTY'))
     {
         $smarty->assign('ecs_css_path', 'themes/' . $_CFG['template'] . '/style.css');
     }
-
+    $smarty->assign('static_path', 'themes/' . $_CFG['template'] . '/static');
 }
 
 if (!defined('INIT_NO_USERS'))

@@ -1,0 +1,47 @@
+.clear{clear:both;}
+
+/* boby 样式 S*/
+.body{margin-bottom:100px;}
+
+/*banner*/
+.banner{margin:2px auto 0;background:#f4f4f4;border-bottom:1px solid #cccccc;}
+.banner .banner_img{width:1220px;margin:0 auto;}
+/*banner*/
+.goods_select{margin:0 auto;height:60px;border-bottom:1px solid #cccccc;border-left:1px solid #cccccc;}
+.select{width:1220px;margin:0 auto;border-left:1px solid #ebeff2;overflow:hidden;}
+.select ul li{height:60px;border-right:1px solid #ebeff2;}
+.select ul li a{color:#414141;height:59px;line-height:30px;}
+.select ul li a .glyphicon-chevron-down::before{font-size:10px;color:#50c8ac;padding-left:10px;}
+.price_sorted{width:1220px;margin:0 auto;}
+.row_bg{margin:0 auto;border-bottom:1px solid #ccc;margin-bottom:60px;}
+.row{width:1220px;margin:0 auto;}
+.price_sorted p{float:right;margin:30px 28px 15px 0;}
+.price_sorted span{margin:0 10px;}
+.price_sorted p span img{margin:0 0 2px 5px;}
+.price_sorted p .sorted{color:#e93a41;}
+.price_sorted p .price{color:#666;}
+.row{margin-bottom:40px;margin-top:17px;padding-left:15px;}
+.row .col-md-4{background:#fff;padding:0;margin-right:13px;width:390px;border:1px solid #ececec;box-shadow: 2px -1px 5px #ececec;}
+.row .col-md-none{margin:0;}
+.goods{margin-bottom:30px; overflow:hidden;}
+.goods .goods_top h4{float:left;margin:0px;margin-bottom:7px;color:#333;}
+.goods .goods_top p{float:right;margin:0px;margin-bottom:7px;margin-right:25px;color:#f8f8f8;}
+.goods .goods_top p span{margin-left:5px;margin-right:2px;}
+.goods .goods_top p span a{color:#a0a0a0;}
+.row .col-md-4 p{margin:10px 0 0 10px;width:50px;height:20px;text-align:center;}
+.row .col-md-4 p span{margin-left:10px;}
+.row .col-md-4 p .good_price{float:right;margin-right:25px;}
+.row .col-md-4 .hot{background:#e71d26;color:#fff;}
+.row .col-md-4 img{margin:0 70px 65px;}
+.row .col-md-4 .good_content{width:360px;text-align:left;margin-left:20px;}
+.row .col-md-4 .evaluate{width:360px;text-align:left;margin-left:20px;margin-bottom:25px;}
+.row .col-md-4 .evaluate span{color:#666;font-size:11px;}
+.row .col-md-4 .evaluate img{margin:0;}
+.row .col-md-4 .evaluate .good_price{color:#333;font-size:14px;}
+.link{width:1220px;margin:0 auto;line-heght:80px;padding-left:40px;}
+.link .link_img{width:100px;margin:30px 50px 0 0;border:none;box-shadow:none;}
+.link .link_none{margin:0;}
+.link .col-md-4 img{margin:0;}
+/* boby 样式 E*/
+
+

@@ -1,0 +1,633 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>产品详细页</title>
+<link rel="stylesheet" type="text/css" href="{$static}/bootstrap/css/bootstrap.min.css" />
+<link  rel="stylesheet" type="text/css" href="{$static}/css/header.css" />
+<link  rel="stylesheet" type="text/css" href="{$static}/css/product.css" />
+<link  rel="stylesheet" type="text/css" href="{$static}/css/footer.css" />
+
+</head>
+
+<body> 
+<!--Start-->
+<div id="wrap">
+<!--header S-->
+    <header class="future_header">
+        <div class="nav_top">
+            <div class="logo"><img src="{$static_path}/images/future_logo.gif"/></div>
+            <form class="dark-form" action="#">
+                <div class="input-group">
+                    <input class="form-control myform" type="text"  name="s">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default maincolor1 maincolor1hover" type="submit">
+                             <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+            <ul class="nav navbar-nav hidden-xs">
+                <li id="nav-menu-item-4431" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        username
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                    </a>
+                    <ul style="display:none;" class="f_nav_ul">
+                        <li><a href="#">用户中心</a></li>
+                        <li><a href="#">我的评价</a></li>
+                        <li><a href="#">我的留言</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">资金管理</a></li>
+                        <li class="exit"><a href="#">退出</a></li>
+                    </ul>
+                </li>
+                <li id="nav-menu-item-4428" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        我的订单
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+
+                </li>
+                <li id="nav-menu-item-5218" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-taxonomy menu-item-object-category">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        <img src="{$static_path}/images/shopping_car.png"/>  购物车（<span>4</span>）
+                        <i class="fa fa-angle-down"></i>
+                    </a>
+
+                </li>
+                <li id="nav-menu-item-4857" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent dropdown">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link" data-toggle="dropdown" href="#" title="Music Videos">
+                        帮助中心
+                        <i class="fa fa-angle-down"></i>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav_menu">
+            <div class="menu">
+                <div class="goods_all">
+                    <img src="{$static_path}/images/goods_all.png"/>
+                    <a class="all_classification" href="#"> 所有商品分类</a>
+                    <ul style="display:none;" class="f_nav_ul">
+                        <li><a href="#"><img src="{$static_path}/images/tel.png"/>手机数码 &nbsp;&nbsp;</a></li>
+                        <li class="down_li">
+                            <a href="#"><img src="{$static_path}/images/cp.png"/>电脑办公 &gt; </a>
+                            <ul style="display:none;" class="f_nav_li">
+                                <li><a href="#">&gt; 笔记本&nbsp;&nbsp;</a></li>
+                                <li><a href="#">&gt; 台式机&nbsp;&nbsp;</a></li>
+                                <li><a href="#">&gt; 平板电脑</a></li>
+                                <li><a href="#">&gt; 超极本&nbsp;&nbsp;</a></li>
+                                <li><a href="#">&gt; 服务器&nbsp;&nbsp;</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><img src="{$static_path}/images/home_tv.png"/>智能家居 &nbsp;&nbsp;</a></li>
+                    </ul>
+                </div>
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">首页</a></li>
+                    <li role="presentation"><a href="#">新品上市</a></li>
+                    <li role="presentation"><a href="#">手机数码</a></li>
+                    <li role="presentation"><a href="#">电脑办公</a></li>
+                    <li role="presentation"><a href="#">智能家居</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--header E-->
+    	<!--main s-->
+    	<div class="main">
+        	<div class="current-position">
+            	<P>
+                	<span>当前位置 :</span>
+                    <a href="#">首页 &gt;</a>
+                    <a href="#">智能家居 &gt;</a>
+                	<span>小度i耳目 （iermu）720P高清 WiFi 云摄像头 88HDB </span>
+               	</P>
+            </div>
+         <hr/>
+         <div class="good-info">
+           <div class="col-md-6">
+            <div class="box">
+                <div class="small">
+                    <span class="mark"></span>
+                    <img id="img"src="{$static_path}/images/camera_min01.gif" alt="" />
+                </div>
+                <div class="boxbig">
+                    <div class="big"><img id="bigimg" src="{$static_path}/images/camera_big01.gif" alt="" /></div>
+                </div>
+            </div>
+<!--         	<div>
+            	<a href="#"><img id="img" class="max-map" src="{$static_path}/images/camera_min01.gif" /></a>
+            </div>
+            
+   -->         
+            <div>
+                <a class="col-xs-2 icon-left" href="#">&lt;</a>
+                <a class="col-xs-2" href="#"><img name="img" src="{$static_path}/images/camera_small01.gif"/></a>
+                <a class="col-xs-2" href="#"><img name="img" src="{$static_path}/images/camera_footer.gif" /></a>
+                <a class="col-xs-2" href="#"><img name="img" src="{$static_path}/images/camera_small02.gif"/></a>
+                <a class="col-xs-2" href="#"><img name="img" src="{$static_path}/images/camera_small01.gif"/></a>
+                <a class="col-xs-2 icon-right" href="#">&gt;</a>
+            </div>
+         </div>
+         <div class="col-md-6">
+         	<h1>小度i耳目 （iermu）720P高清 WiFi 云摄像头 88HDB</h1>
+            <p class="comment">
+            	<img src="{$static_path}/images/index.product01.gif" />
+            	<img src="{$static_path}/images/index.product01.gif" />
+            	<img src="{$static_path}/images/index.product01.gif" />
+            	<img src="{$static_path}/images/index.product01.gif" />
+            	<img src="{$static_path}/images/index.product01.gif" />
+                <span>共 1 条购买评价</span>
+            </p>
+            <P class="desc">图像质量较优秀，延迟较低，采用百度云直播、云存储，移动侦测录像。自带mic，双向对讲。摄像头重量很轻方便安装。</P>
+            <ul class="nature">
+            	<li><b>价格</b><span class="price">￥388</span></li>
+            	<li><b>型号</b><span class="model">黑色标准版</span></li>
+            	<li><b>数量</b><span class="count">-<span>1</span>+</span></li>
+            </ul>
+          	<p class="butt">
+            	<input class="col-xs-3 col-md-offset-2" type="image" src="{$static_path}/images/but.icon01.gif"  />
+                <input class="col-xs-3" type="image" src="{$static_path}/images/but.icon02.gif"  />
+            </p>
+         </div>
+         </div>
+         <div class="good-nav">
+            <div class="goods-nav">
+                <a id="good" class="col-md-2 col-md-offset-3" ><b>商品详情</b></a>
+                <a id="parameters" class="col-md-2">商品参数</a>
+                <a class="col-md-2" href="#discuss">用户评论(77)</a>
+                <a class="col-md-2" href="#record">销售记录(45)</a>
+            </div>
+         </div>
+         <div class="goods-info">
+         	<div class="col-md-3">
+            	 <div class="subtitle">
+                 	<h4>销售排行</h4>
+                    <ul>
+                    	<li>
+                        	<div class="col-xs-4 picture-icon" ><img src="{$static_path}/images/good.icon01.gif" /></div>
+                            <div class="col-xs-8 ranking">
+                            	<p>小度i耳目（iermu）720P...</p>
+                                <h6>￥388</h6>
+                                <P>已售出 6 笔</P>
+                            </div>
+                            
+                        </li>
+                    	<li>
+                        	<div class="col-xs-4 picture-icon" ><img src="{$static_path}/images/good.icon01.gif" /></div>
+                            <div class="col-xs-8 ranking">
+                            	<p>小度i耳目（iermu）720P...</p>
+                                <h6>￥388</h6>
+                                <P>已售出 6 笔</P>
+                            </div>
+                            
+                        </li>
+                    	<li>
+                        	<div class="col-xs-4 picture-icon" ><img src="{$static_path}/images/good.icon01.gif" /></div>
+                            <div class="col-xs-8 ranking">
+                            	<p>小度i耳目（iermu）720P...</p>
+                                <h6>￥388</h6>
+                                <P>已售出 6 笔</P>
+                            </div>
+                            
+                        </li>
+                    	<li>
+                        	<div class="col-xs-4 picture-icon" ><img src="{$static_path}/images/good.icon01.gif" /></div>
+                            <div class="col-xs-8 ranking">
+                            	<p>小度i耳目（iermu）720P...</p>
+                                <h6>￥388</h6>
+                                <P>已售出 6 笔</P>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="more"><a href="">查看更多...</a></p>
+                 </div>
+                             	 <div class="subtitle">
+                 	<h4>浏览历史<a href="">清除</a></h4>
+                    <ul>
+                    	<li>
+                        	<div class="col-xs-4 picture-icon" ><img src="{$static_path}/images/good.icon01.gif" /></div>
+                            <div class="col-xs-8 ranking">
+                            	<p>小度i耳目（iermu）720P...</p>
+                                <h6>￥388</h6>
+                                <P>已售出 6 笔</P>
+                            </div>
+                            
+                        </li>
+                    	<li>
+                        	<div class="col-xs-4 picture-icon" ><img src="{$static_path}/images/good.icon01.gif" /></div>
+                            <div class="col-xs-8 ranking">
+                            	<p>小度i耳目（iermu）720P...</p>
+                                <h6>￥388</h6>
+                                <P>已售出 6 笔</P>
+                            </div>
+                            
+                        </li>
+                    	<li>
+                        	<div class="col-xs-4 picture-icon" ><img src="{$static_path}/images/good.icon01.gif" /></div>
+                            <div class="col-xs-8 ranking">
+                            	<p>小度i耳目（iermu）720P...</p>
+                                <h6>￥388</h6>
+                                <P>已售出 6 笔</P>
+                            </div>
+                            
+                        </li>
+                    	<li>
+                        	<div class="col-xs-4 picture-icon" ><img src="{$static_path}/images/good.icon01.gif" /></div>
+                            <div class="col-xs-8 ranking">
+                            	<p>小度i耳目（iermu）720P...</p>
+                                <h6>￥388</h6>
+                                <P>已售出 6 笔</P>
+                            </div>
+                        </li>
+                    </ul>
+                 
+                 </div>               
+               
+            </div>
+         	<div class="col-md-9">
+            	<div id="PhotoIntro">
+                    <img class="map" src="{$static_path}/images/camera.jpg" />
+                    <img class="map" src="{$static_path}/images/baby.jpg" />
+                </div>
+                <div id="parameter">
+                	<table class="table table-bordered mytable">
+                    	<tr>
+                        	<th>品牌</th>
+                        	<td>小杜i耳机</td>
+                        </tr>
+                    	<tr>
+                        	<th>型号</th>
+                        	<td>88HDB</td>
+                        </tr>
+                    	<tr>
+                        	<th>上市时间</th>
+                        	<td>2015年8月28日</td>
+                        </tr>
+                    	<tr>
+                        	<th>颜色</th>
+                        	<td>黑色</td>
+                        </tr>
+                    	<tr>
+                        	<th>外形材质</th>
+                        	<td>金属</td>
+                        </tr>
+                    	<tr>
+                        	<th>品牌</th>
+                        	<td>小杜i耳机</td>
+                        </tr>
+                    	<tr>
+                        	<th>尺寸</th>
+                        	<td>主体直径60mm 厚度30mm</td>
+                        </tr>
+                    	<tr>
+                        	<th>重量</th>
+                        	<td>0.05kg</td>
+                        </tr>
+                    	<tr>
+                        	<th>镜头光圈</th>
+                        	<td>3.6mm</td>
+                        </tr>
+                    	<tr>
+                        	<th>图像分辨率</th>
+                        	<td>960*760</td>
+                        </tr>
+                    	<tr>
+                        	<th>视频帧率</th>
+                        	<td>最大30帧/秒</td>
+                        </tr>
+                    	<tr>
+                        	<th>感光元件尺寸</th>
+                        	<td>1/3 </td>
+                        </tr>
+                    	<tr>
+                        	<th>电源供应</th>
+                        	<td>DC5V+—10%</td>
+                        </tr>
+                    	<tr>
+                        	<th>wifi无限网络</th>
+                        	<td>支持802.11b/g/n/x无线协议</td>
+                        </tr>
+                    	<tr>
+                        	<th>红外夜视</th>
+                        	<td>支持</td>
+                        </tr>
+                    	<tr>
+                        	<th>语音对讲</th>
+                        	<td>支持</td>
+                        </tr>
+                    	<tr>
+                        	<th>电源适配器</th>
+                        	<td>5V2A</td>
+                        </tr>
+                    	<tr>
+                        	<th>usb电源线</th>
+                        	<td>3米</td>
+                        </tr>
+                    	<tr>
+                        	<th>说明书</th>
+                        	<td>有</td>
+                        </tr>
+                    	<tr>
+                        	<th>保修卡</th>
+                        	<td>有</td>
+                        </tr>
+                    	<tr>
+                        	<th>电源功率</th>
+                        	<td>3W MAX</td>
+                        </tr>
+                    	<tr>
+                        	<th>工作环境</th>
+                        	<td>-5度至55度</td>
+                        </tr>
+                    	<tr>
+                        	<th>其他配件</th>
+                        	<td>5V2A</td>
+                        </tr>
+                    	<tr>
+                        	<th>保修</th>
+                        	<td>一年</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="referral">
+                	<h5>摄像头遇到百度云</h5>
+                    <div class="col-md-4">
+                    	<img src="{$static_path}/images/tv.png" />
+                        <p>从前摄像头总离不开电脑今天将独立存在</p>
+                    </div>
+                    <div class="col-md-4">
+                    	<img src="{$static_path}/images/wifi.png" />
+                        <p>从前摄像头总要连接网络今天有wifi使用</p>
+                    </div>
+                    <div class="col-md-4">
+                    	<img src="{$static_path}/images/butterfly.png" /> 
+                        <p>从本的硬盘总是不够用今天的百度云盘全部搞定</p></p>
+                    </div>
+                </div>
+                <a name="discuss"></a>
+                <div class="discuss">
+                	<h3>用户评论(77)</h3>
+                    <ul>
+                    	<li>
+                        	<img class="col-md-2" src="{$static_path}/images/uner.icon01.png" />
+                            <div class="col-md-10 message" >
+                            	<p>anoxic_01<span>2015-08-08 21:55:35</span></p>
+                                <h4>摄像头直接接入电源，灯不亮；但是用usb接口接电脑，灯会亮。电源插头是不是坏了？</h4>			
+                                <h5>管理员回复：</h5>
+                            </div>
+                        </li> 
+                    	<li>
+                        	<img class="col-md-2" src="{$static_path}/images/uner.icon01.png" />
+                            <div class="col-md-10 message" >
+                            	<p>anoxic_01<span>2015-08-08 21:55:35</span></p>
+                                <h4>摄像头直接接入电源，灯不亮；但是用usb接口接电脑，灯会亮。电源插头是不是坏了？</h4>			
+                                <h5>管理员回复：</h5>
+                            </div>
+                        </li> 
+                    	<li>
+                        	<img class="col-md-2" src="{$static_path}/images/uner.icon01.png" />
+                            <div class="col-md-10 message" >
+                            	<p>anoxic_01<span>2015-08-08 21:55:35</span></p>
+                                <h4>摄像头直接接入电源，灯不亮；但是用usb接口接电脑，灯会亮。电源插头是不是坏了？</h4>			
+                                <h5>管理员回复：</h5>
+                            </div>
+                        </li> 
+                    </ul>
+                    <nav>
+                      <ul class="pagination page">
+                            <li>
+                                  <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&lt;</span>
+                                  </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li class="active pitch-on"><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">8</a></li>
+                            
+                            <li>
+                              <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&gt;</span>
+                              </a>
+                            </li>
+                      </ul>
+                    </nav>
+                   	<textarea class="text" cols="105" rows="4" >同学，你怎么看？</textarea>
+                    <p class="msg"><span>还能输入<b>150</b> 个字</span><input type="image" src="{$static_path}/images/bott.icon03.gif" /></p>
+                </div>
+                <a name="record"></a>
+                <div class="record">
+                	<h3>销售记录(45)</h3>
+                    <table>
+                    	<tr>
+                        	<th>买家	</th>
+                        	<th>购买价</th>
+                        	<th>购买数量</th>
+                        	<th>购买时间</th>
+                        </tr>
+                    	<tr>
+                        	<td>buy01	</td>
+                        	<td>￥380.00	</td>
+                        	<td>1</td>
+                        	<td>2015-08-01 14:03</td>
+                        </tr>
+                    	<tr>
+                        	<td>buy01	</td>
+                        	<td>￥380.00	</td>
+                        	<td>1</td>
+                        	<td>2015-08-01 14:03</td>
+                        </tr>
+                    	<tr>
+                        	<td>buy01	</td>
+                        	<td>￥380.00	</td>
+                        	<td>1</td>
+                        	<td>2015-08-01 14:03</td>
+                        </tr>
+                    	<tr>
+                        	<td>buy01	</td>
+                        	<td>￥380.00	</td>
+                        	<td>1</td>
+                        	<td>2015-08-01 14:03</td>
+                        </tr>
+					</table>
+                    <nav>
+                      <ul class="pagination page">
+                            <li>
+                                  <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&lt;</span>
+                                  </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li class="active pitch-on"><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">8</a></li>
+                            
+                            <li>
+                              <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&gt;</span>
+                              </a>
+                            </li>
+                      </ul>
+                    </nav>                        	
+                </div>
+            </div>
+         </div>
+         <hr/>
+        </div>
+        <!--main end-->
+        
+        <!--footer s-->
+       	<footer>
+            <div class="container">
+                <ul class="footernav">
+                    <li><img src="{$static_path}/images/index.footer.icon01.png" alt=""/><a href="">严格准入标准</a></li>
+                    <li><img src="{$static_path}/images/index.footer.icon02.png" alt=""/><a href="">严格准入标准</a></li>
+                    <li><img src="{$static_path}/images/index.footer.icon03.png" alt=""/><a href="">15天免费换货</a></li>
+                    <li><img src="{$static_path}/images/index.footer.icon04.png" alt=""/><a href="">全场包邮</a></li>
+                </ul>
+                <div class="footer-left">
+                    <h3>售后客服电话：020-23235858 <span>(周一至周五9:00-18:00)</span></h3>
+                    <P>
+                        <span>©2015 feturn.com</span>
+                        <a href="">关于我们</a>
+                        <a href="">服务条款</a>
+                        <a href="">意见反馈</a>
+                        <a href="">售后政策</a>
+                        <a href="">合作咨询</a>
+                    </P>
+                </div>
+                <div class="footer-right">
+                    <p>关注我们：</p>
+                    <img src="{$static_path}/images/index.footer.icon05.png"/>
+                    <img src="{$static_path}/images/index.footer.icon06.png"/>
+                    <img class="footer-icon" src="{$static_path}/images/index.footer.icon07.gif"/>
+                </div>
+            </div>
+        </footer>
+        <!--footer end-->
+
+    
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/dropdown.js"></script>
+
+<script>
+$(function(){
+	var mouseX = 0;		//鼠标移动的位置X
+	var mouseY = 0;		//鼠标移动的位置Y
+	var maxLeft = 0;	//最右边
+	var maxTop = 0;		//最下边
+	var markLeft = 0;	//放大镜移动的左部距离
+	var markTop = 0;	//放大镜移动的顶部距离
+	var perX = 0;	//移动的X百分比
+	var perY = 0;	//移动的Y百分比
+	var bigLeft = 0;	//大图要移动left的距离
+	var bigTop = 0;		//大图要移动top的距离
+
+	//改变放大镜的位置
+	function updataMark($mark){
+		//通过判断，让小框只能在小图区域中移动		
+		if(markLeft<0){
+			markLeft = 0;
+		}else if(markLeft>maxLeft){
+			markLeft = maxLeft;
+		}
+		
+		
+		if(markTop<0){
+			markTop = 0;
+		}else if(markTop>maxTop){
+			markTop = maxTop;
+		}
+		
+		//获取放大镜的移动比例，即这个小框在区域中移动的比例
+		perX = markLeft/$(".small").outerWidth();
+		perY = markTop/$(".small").outerHeight();
+		
+		bigLeft = -perX*$(".big").outerWidth();
+		bigTop = -perY*$(".big").outerHeight();
+		
+		//设定小框的位置
+		$mark.css({"left":markLeft,"top":markTop,"display":"block"});
+	}
+	
+	//改变大图的位置
+	function updataBig(){
+		$(".big").css({"display":"block","left":bigLeft,"top":bigTop});
+	}
+	
+	//鼠标移出时
+	function cancle(){
+		$(".big").css({"display":"none"});	
+		$(".mark").css({"display":"none"});
+	}
+	
+	//鼠标小图上移动时
+	function imgMouseMove(event){
+		
+		var $this = $(this);
+		var $mark = $(this).children(".mark");
+  		
+		//鼠标在小图的位置
+		mouseX = event.pageX-$this.offset().left - $mark.outerWidth()/2;
+		mouseY = event.pageY-$this.offset().top - $mark.outerHeight()/2;
+		
+		//最大值
+		maxLeft =$this.width()- $mark.outerWidth();
+		maxTop =$this.height()- $mark.outerHeight();
+		markLeft = mouseX;
+		markTop = mouseY;
+		
+		updataMark($mark);
+		updataBig();
+	}
+		
+	
+	$(".small").bind("mousemove",imgMouseMove).bind("mouseleave",cancle);
+	
+	//图片切换的js
+		var imgmax=document.getElementById('img');
+		var bigimg=document.getElementById('bigimg');
+		var	imgmin=document.getElementsByName("img")
+		for(var i=0;i<imgmin.length;i++){
+			imgmin[i].onmouseover=function(){
+				var a=this.getAttribute('src')
+				var abc=a.replace(/small/,"min");
+				var bc=a.replace(/small/,"big");
+				imgmax.src=abc;
+				bigimg.src=bc;
+			}
+		}
+		//商品详细信息切换js
+		var a=document.getElementById('good')
+		var b=document.getElementById('parameters')
+		var c=document.getElementById('PhotoIntro')
+		var d=document.getElementById('parameter')
+		a.onclick=function(){
+			
+			c.style.display="block";
+			d.style.display="none";
+		}
+		b.onclick=function(){
+			
+			c.style.display="none";
+			d.style.display="block";
+		}
+		
+})
+       
+		
+</script>
+

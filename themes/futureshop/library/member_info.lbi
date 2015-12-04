@@ -1,0 +1,28 @@
+<div id="append_parent"></div>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+{if $user_info}
+                <li id="nav-menu-item-4431" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown" style="width:100px">
+                    <a class="menu-link dropdown-toggle disabled main-menu-link f_nav" data-toggle="dropdown" href="#" title="Music Videos">
+                        {$user_info.username}
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                    </a>
+                    <ul style="display:none;" class="f_nav_ul">
+                        <li><a href="user.php">{$lang.user_center}</a></li>
+                        <li><a href="user.php?act=comment_list">我的评论</a></li>
+                        <li><a href="user.php?act=message_list">我的留言</a></li>
+                        <li><a href="user.php?act=collection_list">我的收藏</a></li>
+                        <li><a href="user.php?act=account_log">资金管理</a></li>
+                        <li><a href="user.php?act=logout">{$lang.user_logout}</a></li>
+                    </ul>
+
+                </li>
+                {else}
+                <li id="nav-menu-item-4428" class="main-menu-item menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent dropdown" style="width:100px">
+                    <a  href="user.php" title="Music Videos" style="padding:8px 0px 5px 5px;float:left">
+                       登录
+                    </a>
+                    <a  href="user.php?act=register" title="Music Videos" style="padding:8px 0px 5px 5px;float:left">
+                       注册
+                    </a>
+                </li>
+                {/if}
